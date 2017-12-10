@@ -31,3 +31,5 @@ git submodule update
 cd StABIlize
 & $cmakeCmd .
 msbuild StABIlize.sln
+& "bin\Debug\StABIlize-Tests.exe"
+cd ..
