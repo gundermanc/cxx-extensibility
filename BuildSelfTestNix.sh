@@ -11,7 +11,7 @@ git submodule update
 cd StABIlize
 cmake .
 make
-./StABIlize-Tests
+./bin/StABIlize-Tests
 
 # Kill build if test fails.
 if [[ $? != 0 ]]; then
